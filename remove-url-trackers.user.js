@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Remove URL trackers
 // @namespace https://github.com/insign
-// @version 202409170820
+// @version 202409170838
 // @description removes annoying url trackers parameters like utm_*, ref, etc
 // @match http*://*
 // @author Hélio <open@helio.me>
