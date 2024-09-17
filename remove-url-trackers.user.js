@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name Remove URL trackers
 // @namespace https://github.com/insign
-// @version 202409170838
+// @version 202409170842
 // @description removes annoying url trackers parameters like utm_*, ref, etc
 // @match http*://*
 // @author Hélio <open@helio.me>
 // @license WTFPL
-// @off-downloadURL https://update.greasyfork.org/scripts/489922/Better%20LMSYS%20Chat.user.js
-// @off-updateURL https://update.greasyfork.org/scripts/489922/Better%20LMSYS%20Chat.meta.js
+// @downloadURL https://update.greasyfork.org/scripts/508850/Remove%20URL%20trackers.user.js
+// @updateURL https://update.greasyfork.org/scripts/508850/Remove%20URL%20trackers.user.js
 // ==/UserScript==
 
 (function() {
