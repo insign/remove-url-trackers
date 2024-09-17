@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name Better LMSYS Chat
+// @name Remove URL trackers
 // @namespace https://github.com/insign
 // @version 202409170820
 // @description removes annoying url trackers parameters like utm_*, ref, etc
