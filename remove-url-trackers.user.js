@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Remove URL trackers
 // @namespace https://github.com/insign
-// @version 202409172103
+// @version 202409172108
 // @description removes annoying url trackers parameters like utm_*, ref, etc
 // @match *://*/*
 // @author Hélio <open@helio.me>
@@ -11,6 +11,7 @@
 // ==/UserScript==
 
 (function() {
+  'use strict'
   // Parameters (that start with these prefixes) to strip from the URL.
   const paramsToStrip = ['utm_', 'ref', 'gclid', 'gclsrc', 'gs_', 'ga_', '_ga', '_gaq', '__utm', 'fbclid', 'mc_', '_cid', 'epik', 'context']
 
