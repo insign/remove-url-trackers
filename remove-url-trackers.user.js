@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name Remove URL trackers
 // @namespace https://github.com/insign
-// @version 202409170842
+// @version 202409172103
 // @description removes annoying url trackers parameters like utm_*, ref, etc
-// @match http*://*
+// @match *://*/*
 // @author Hélio <open@helio.me>
 // @license WTFPL
 // @downloadURL https://update.greasyfork.org/scripts/508850/Remove%20URL%20trackers.user.js
@@ -11,8 +11,8 @@
 // ==/UserScript==
 
 (function() {
-  // Parameters to remove from the URL (we can extend this list if needed).
-  const paramsToStrip = ['utm_', 'ref']
+  // Parameters (that start with these prefixes) to strip from the URL.
+  const paramsToStrip = ['utm_', 'ref', 'gclid', 'gclsrc', 'gs_', 'ga_', '_ga', '_gaq', '__utm', 'fbclid', 'mc_', '_cid', 'epik', 'context']
 
   /**
    * Checks if a parameter should be removed from the URL.
