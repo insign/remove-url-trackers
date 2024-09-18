@@ -1,6 +1,8 @@
 # Remove URL trackers
 
-A userscript that removes annoying url trackers parameters like utm_*, ref, etc
+A userscript that removes annoying url trackers parameters like utm_*, ref, etc.
+
+> It is not a privacy tool, it's just a tool to share without exposing refs. It can be good considering the site owner wants to know the origin of the traffic.
 
 ## Installation
 
