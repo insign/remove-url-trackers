@@ -1,4 +1,5 @@
-# Remove URL trackers
+# ⚠️ Moved to [Userscripts Collection](https://github.com/insign/userscripts)
+## Remove URL trackers
 
 A userscript that removes annoying url trackers parameters like utm_*, ref, etc.
 
